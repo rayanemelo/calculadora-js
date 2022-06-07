@@ -4,49 +4,41 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 50px 0;
-  font-family: "Courier New", Courier, monospace;
 }
 
 .container {
-  background-color: #13b9bf;
-  width: 330px;
-  height: 480px;
-  padding: 30px 0 0;
+  padding: 35px 20px;
+  background-color: #794d79;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.container .display {
-  height: 60px;
-  background-color: #e9e9ed;
+.display input {
+  height: 35px;
   border-radius: 5px;
-  margin: 0 10px;
-}
-.container .teclas {
-  padding: 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  border: none;
+  width: 95%;
+  padding-left: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: #794d79;
 }
 
-.container input {
-  height: 55px;
-  width: 55px;
-  margin: 10px 5px;
+.keyboard {
+  margin-top: 10px;
+}
+
+.keyboard button {
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
   border: none;
   border-radius: 5px;
-  color: #bf1363;
-  font-weight: bold;
-  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: #794d79;
 }
 
-.container .teclas div:last-child {
-  width: 289px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.container .teclas div:last-child > input:first-child {
-  width: 130px;
+#zero {
+  width: 75px;
 }

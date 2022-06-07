@@ -1,47 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Calculadora JavaScript</title>
+    <link rel="stylesheet" href="./index.css" />
+    <title>Calculadora Javascript</title>
   </head>
   <body>
     <div class="container">
-      <div class="display"></div>
-      <div class="teclas">
+      <div class="display">
+        <input type="text" id="display" value="0" />
+      </div>
+      <div class="keyboard">
         <div>
-          <input type="button" value="C" />
-          <input type="button" value="√" />
-          <input type="button" value="x²" />
-          <input type="button" value="/" />
+          <button class="key">C</button>
+          <button class="key">x²</button>
+          <button class="key">√</button>
+          <button class="key">/</button>
         </div>
         <div>
-          <input type="button" value="7" />
-          <input type="button" value="8" />
-          <input type="button" value="9" />
-          <input type="button" value="*" />
+          <button class="key">7</button>
+          <button class="key">8</button>
+          <button class="key">9</button>
+          <button class="key">x</button>
         </div>
         <div>
-          <input type="button" value="4" />
-          <input type="button" value="5" />
-          <input type="button" value="6" />
-          <input type="button" value="-" />
+          <button class="key">4</button>
+          <button class="key">5</button>
+          <button class="key">6</button>
+          <button class="key">-</button>
         </div>
         <div>
-          <input type="button" value="1" />
-          <input type="button" value="2" />
-          <input type="button" value="3" />
-          <input type="button" value="+" />
+          <button class="key">1</button>
+          <button class="key">2</button>
+          <button class="key">3</button>
+          <button class="key">+</button>
         </div>
         <div>
-          <input type="button" value="0" />
-          <input type="button" value="," />
-          <input type="button" value="=" />
+          <button class="key" id="zero">0</button>
+          <button class="key">.</button>
+          <button class="key">=</button>
         </div>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
-  <script src="index.js"></script>
 </html>
